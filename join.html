@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUELLO-Join</title>
+    <link rel="stylesheet" href="css/join.css">
+    <script src="js/join.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="nav">
+                    <div class="gnb">
+                        <div class="gnb-left">
+                            <div class="bar">
+                                <a href="#"><img src="img/side-bar.png" alt="사이드바"></a>
+                            </div>
+                            <ul>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">BEST</a></li>
+                                <li><a href="#">#YUELLO</a></li>
+                            </ul>
+                        </div>
+                        <h1 class="logo">
+                            <a href="http://jadw9715.dothome.co.kr/projectYUELLO/index.html"><img src="img/logo.png" alt="메인로고"></a>
+                        </h1>
+                        <div class="gnb-right">
+                            <ul>
+                                <li><a href="#">
+                                        <img src="img/h-icon1.png" alt="장바구니아이콘">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="img/h-icon2.png" alt="검색아이콘">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="img/h-icon3.png" alt="로그인아이콘">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="secreat-gnb">
+                        <div class="gnb-left">
+                            <div class="bar">
+                                <img src="img/side-bar-white.png" alt="사이드바">
+                                <ul class="sub">
+                                    <li class="main-bar">
+                                        <ul>
+                                            <li>
+                                                <a href="#">OUTER</a>
+                                                <ul class="lisub">
+                                                    <li><a href="#">자켓</a></li>
+                                                    <li><a href="#">가디건</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">TOP</a>
+                                                <ul class="lisub">
+                                                    <li><a href="#">티셔츠</a></li>
+                                                    <li><a href="#">티셔츠</a></li>
+                                                    <li><a href="#">티셔츠</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">BOTTOM</a>
+                                                <ul class="lisub">
+                                                    <li><a href="#">바지</a></li>
+                                                    <li><a href="#">스커트</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">DRESS</a>
+                                                <ul class="lisub">
+                                                    <li><a href="#">원피스</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">SET</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li><a href="#">공지사항</a></li>
+                                            <li><a href="#">1:1문의하기</a></li>
+                                            <li><a href="#">FAQ</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">BEST</a></li>
+                                <li><a href="#">#YUELLO</a></li>
+                            </ul>
+                        </div>
+                        <h1 class="logo">
+                            <a href="http://jadw9715.dothome.co.kr/projectYUELLO/index.html"><img src="img/logo-white.png" alt="메인로고"></a>
+                        </h1>
+                        <div class="gnb-right">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/h-icon1-white.png" alt="장바구니아이콘">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/h-icon2-white.png" alt="검색아이콘">
+                                    </a>
+                                </li>
+                                <li>
+                                    <img src="img/h-icon3-white.png" alt="로그인아이콘">
+                                    <ul class="sub">
+                                        <li><a href="http://jadw9715.dothome.co.kr/projectYUELLO/login.html">Login</a></li>
+                                        <li><a href="http://jadw9715.dothome.co.kr/projectYUELLO/join.html">Join</a></li>
+                                        <li><a href="#">My page</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <div class="sections">
+                    <div class="section sec1">
+                        <div class="sec-con">
+                            <a href="http://jadw9715.dothome.co.kr/projectYUELLO/index.html">HOME</a>
+                            <p>회원가입</p>
+                            <p>정보입력</p>
+                        </div>
+                    </div>
+                    <div class="section sec2">
+                        <div class="sec2-con">
+                            <div class="sec2-title">
+                                <h1 class="title">
+                                    회원가입
+                                </h1>
+                            </div>
+                            <div class="sec2-main">
+                                <form action="joinOk.do" method="POST" name="joinForm" id="joinForm">
+                                    <div class="sec2form-title">
+                                        <h2>기본정보</h2>
+                                        <p>표시는 반드시 입력하셔야 하는 항목입니다.</p>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userId">아이디</label>
+                                                </li>
+                                                <li>
+                                                    <input type="text" name="userId" id="userId">
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userPW">비밀번호</label>
+                                                </li>
+                                                <li>
+                                                    <input type="password" name="userPW" id="userPW">
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userPWcheck">비밀번호 확인</label>
+                                                </li>
+                                                <li>
+                                                    <input type="password" name="userPWcheck" id="userPWcheck">
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userName">이름</label>
+                                                </li>
+                                                <li>
+                                                    <input type="text" name="userName" id="userName">
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userEmail">이메일</label>
+                                                </li>
+                                                <li>
+                                                    <div class="box">
+                                                        <input type="email" name="userEmail" id="userEmail">
+                                                        <label for="email"></label>
+                                                        <select name="email" id="email">
+                                                            <option value="email" selected>직접입력</option>
+                                                            <option value="email1">naver.com</option>
+                                                            <option value="email2">daum.net</option>
+                                                            <option value="email3">gmail.com</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="agree">
+                                                        <label for="eventAgree"></label>
+                                                        <input type="checkbox" name="eventAgree" value="정보동의">정보/이벤트
+                                                        메일 수신에
+                                                        동의합니다.
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userPhone">휴대폰번호</label>
+
+                                                </li>
+                                                <li>
+                                                    <div class="box">
+                                                        <input type="text" name="userPhone" id="userPhone">
+                                                    </div>
+                                                    <div class="agree">
+                                                        <label for="eventAgree"></label>
+                                                        <input type="checkbox" name="eventAgree" value="정보동의">정보/이벤트
+                                                        메일 수신에
+                                                        동의합니다.
+                                                    </div>
+                                                    
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userCall">전화번호</label>
+
+                                                </li>
+                                                <li>
+                                                    <input type="text" name="userCall" id="userCall"
+                                                        placeholder="- 없이 입력하세요">
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userAddres">주소</label>
+
+                                                </li>
+                                                <li>
+                                                    <div class="box">
+                                                        <input type="text" name="userAddres" id="userAddres">
+                                                        <input type="button" value="우편번호찾기" id="userAddresB">
+                                                    </div>
+                                                    <input type="text" name="userAddres" id="userAddresC">
+                                                    <input type="text" name="userAddres" id="userAddresD">
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+
+                                    <div class="sec2form-title">
+                                        <h2>부가 정보</h2>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <label for="userBd">생일</label>
+
+                                                </li>
+                                                <li>
+                                                    <div class="box">
+                                                        <select name="userBd" id="userBd">
+                                                            <option value="userBd" selected>선택</option>
+                                                            <option value="userBd">양력</option>
+                                                            <option value="userBd">음력</option>
+                                                        </select>
+                                                        <input type="text" name="userBd" id="userBd" value
+                                                            placeholder="생일입력">
+                                                    </div>
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    </ul>
+                                    <div class="bottom">
+                                        <input type="reset" value="취소">
+                                        <input type="button" id="joinOkBtn" value="회원가입">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="fcon">
+                    <div class="fcon-top">
+                        <div class="fTop-left">
+                            <ul>
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">이용안내</a></li>
+                                <li><a href="#">광고/제휴 문의</a></li>
+                            </ul>
+                        </div>
+                        <div class="fTop-right">
+                            <ul>
+                                <li>FOLLOW US ON</li>
+                                <li><a href="#">
+                                        <img src="img/icon-insta.png" alt="인스타">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="img/icon-blogger.png" alt="블로그">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="img/icon-facebook.png" alt="페이스북">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fcon-middle">
+                        <div class="fMiddle-left">
+                            <ul>
+                                <li>
+                                    <img src="img/logo.png" alt="로고">
+                                </li>
+                                <li>
+                                    유엘로 (yuello) 경기도 수원시 권선구 효원로266번길 18 엘리시아 609호
+                                </li>
+                                <li>
+                                    대표 :박유림사업자등록번호 :292-07-01645 <a href="#">사업자정보확인 ></a> 통신판매업신고번호 :2021-수원권선-0612
+                                </li>
+                                <li>
+                                    개인정보관리자 :박유림
+                                </li>
+                                <li>
+                                    대표번호 :010-3996-3016팩스번호 :메일 : <a href="#"> p_yrim1011@naver.com </a>
+                                </li>
+                                <li>
+                                    copyright (c) yuello.co.kr all rights reserved.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fMiddle-right">
+                            <ul>
+                                <li>
+                                    고객센터
+                                </li>
+                                <li>
+                                    010-3996-3016
+                                </li>
+                                <li>
+                                    MON-FRI am 11:00~ pm 18:00
+                                </li>
+                                <li>
+                                    LUNCH pm 13:00~ pm 14:00
+                                </li>
+                                <li>
+                                    SAT/SUN/HOLIDAY OFF
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    입금 계좌정보
+                                </li>
+                                <li>
+                                    965601-01-509947
+                                </li>
+                                <li>
+                                    국민
+                                </li>
+                                <li>
+                                    예금주 : 유엘로(yuello)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fcon-bottom">
+                        <a href="#">
+                            <img src="img/escrow_banner_kcp.png" alt="에스크로 서비스 확인">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

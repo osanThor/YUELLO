@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import url(../common/reset.css);
+
+html{
+    font-size: 12px;
+}
+/* header */
+.header .inner-header .nav .gnb .gnb-left{
+    visibility: hidden;
+}
+.header .inner-header .nav .gnb .gnb-left .bar{
+    visibility: visible;
+    min-width: 20px;
+    border: 0px solid;
+    height: auto;
+    margin-top: 7px;
+}
+.header .inner-header .nav .gnb .gnb-left .bar img{
+    width: 100%;
+}
+.header .inner-header .nav .gnb .gnb-right{
+    visibility: hidden;
+}
+.header .inner-header .nav .gnb .gnb-right>ul>li:last-child{
+    visibility: visible;
+    min-width: 20px;
+}
+.header .inner-header .nav .secreat-gnb .gnb-left{
+    visibility: hidden;
+}
+.header:hover .inner-header .nav .secreat-gnb .gnb-left .bar{
+    visibility: visible;
+    width: 20%;
+    min-width: 20px;
+    height: auto;
+    padding-top: 7px;
+}
+.header .inner-header .nav .secreat-gnb .gnb-left .bar img{
+    width: 100%;
+}
+
+.header .inner-header .nav .secreat-gnb .gnb-right{
+    visibility: hidden;
+}
+.header:hover .inner-header .nav .secreat-gnb .gnb-right>ul>li:last-child{
+    visibility: visible;
+    min-width: 20px;
+}
+
+/* container */
+/* .container .inner-container .sections .section.sec3 .sec3-con .sec3-top{
+    margin: 0 auto;
+}
+.container .inner-container .sections .section.sec1 .sec-con .gallery>ul>li>a>.btn{
+    display: none;
+} */
+/* footer */
+
+.footer .inner-footer .fcon .fcon-top .fTop-left{
+    display: none;
+}
